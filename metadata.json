@@ -1,0 +1,6 @@
+{
+  "name": "SENA Inducción Interactiva",
+  "description": "Plataforma interactiva de inducción institucional del Servicio Nacional de Aprendizaje (SENA) para aprendices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom SENA Institutional Dark Mode Enhancements */
+@layer base {
+  :root {
+    --sena-green: #39A900;
+    --sena-navy: #00324D;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+}
+
+/* Ensure smooth transition between Light and Dark mode */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
